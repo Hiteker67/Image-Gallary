@@ -1,0 +1,25 @@
+.intro { 
+    text-align: center; 
+    font-family: Arial;
+    background-color: rgb(139, 5, 197);
+  }
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.gallery{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+.gallery img{
+    width: 500px;
+    height:auto;
+    transition: 0.5s;
+}
+.gallery img:hover{
+    filter: grayscale(80%);
+    transform: scale(1.02);
+}
